@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adarsh Biradar | Java Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+    }
+    .sidebar {
+      background-color: #1e1e1e;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: contain;
+      background-color: #000;
+    }
+    .sidebar h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 1.5rem;
+    }
+    .sidebar p {
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+    .sidebar a {
+      display: inline-block;
+      margin: 0.5rem;
+      color: #00ff84;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content section {
+      margin-bottom: 2rem;
+    }
+    .content h2 {
+      color: #00ff84;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #333;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .project, .experience {
+      margin-bottom: 1.5rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="adarsh (1).jpg" alt="Adarsh Biradar" />
+      <h1>Adarsh Biradar</h1>
+      <p>Full Stack Java Developer | Tech Enthusiast</p>
+      <a href="mailto:adarshbiradar56@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/adarsh-biradar" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ARBiradar" target="_blank">GitHub</a>
+    </aside>
+
+    <main class="content">
+      <section>
+        <h2>About Me</h2>
+        <p>I am a passionate Java Developer with solid knowledge in OOP, web development, and prompt engineering. I strive to solve real-world problems through smart software and continuous learning.</p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="experience">
+          <strong>Java Developer Trainee – Code Alpha (Dec 2024 – Jan 2025)</strong>
+          <ul>
+            <li>Developed a Student Grade Tracker and Online Quiz Platform.</li>
+            <li>Collaborated in a real-world development environment using Java.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="project">
+          <strong>📊 Student Grade Tracker</strong>
+          <p>Java app using OOP and file handling to calculate GPA and manage student records.</p>
+        </div>
+        <div class="project">
+          <strong>✅ Task Management System</strong>
+          <p>Improved task efficiency with a Java system that tracks and manages workflows.</p>
+        </div>
+        <div class="project">
+          <strong>🧠 Online Quiz Platform</strong>
+          <p>Interactive Java quiz app with scoring, timing, and user-friendly design.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>Java</span><span>C</span><span>Python</span><span>SQL</span>
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>Spring</span><span>React</span><span>Node.js</span>
+          <span>Oracle</span><span>MySQL</span><span>Git</span>
+          <span>Linux</span><span>Jira</span><span>Prompt Engineering</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p><strong>Master of Computer Applications</strong>  </p>
+        <p>Acharya Institute (Expected Dec 2025) – GPA: 7.79/10.0</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Adarsh Biradar | Built with HTML & CSS
+  </div>
+</body>
+</html>
